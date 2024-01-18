@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import os
-from streamlit_extras.app_logo import add_logo
+
 
 
 
@@ -75,20 +75,6 @@ th {
 
 
 
-st.markdown(
-        """
-        <style>
-            [data-testid="stSidebarNav"] {
-                background-image: url('../assest/RE.jpg');
-                background-repeat: no-repeat;
-                padding-top: 120px;
-                background-position: 20px 20px;
-            }
-           
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
 
 
 
