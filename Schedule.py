@@ -126,7 +126,7 @@ if __name__ == "__main__":
     st.markdown(html_code, unsafe_allow_html=True)
 
     # Add a horizontal rule with black color
-    st.markdown("<hr style='border: 2px solid #0E1117;'>", unsafe_allow_html=True)
+    st.markdown("<hr style='border: 2px solid #7A859E;'>", unsafe_allow_html=True)
 
     data2 = {
         'order id ': ['1', '1', '1'],
